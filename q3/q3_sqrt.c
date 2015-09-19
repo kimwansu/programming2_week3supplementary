@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <math.h>
 
 double square_sum_sqrt(double* arr, int n);
@@ -8,7 +8,7 @@ int main()
     double arr[5] = { 2, 3, 5, 7, 13 };
     double result = square_sum_sqrt(arr, 5);
     
-    printf("°á°ú=%lf\n", result);
+    printf("ê²°ê³¼=%lf\n", result);
 
     return 0;
 }

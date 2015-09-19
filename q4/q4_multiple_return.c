@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 void get_area_perimeter(double w, double h, double* area, double* perimeter);
 double area_and_p(double w, double h, double* perimeter);
@@ -12,13 +12,13 @@ int main()
     double perimeter;
 
     get_area_perimeter(w, h, &area, &perimeter);
-    printf("%lf * %lf Á÷»ç°¢ÇüÀÇ ³ĞÀÌ: %lf, µÑ·¹:%lf\n", w, h, area, perimeter);
+    printf("%lf * %lf ì§ì‚¬ê°í˜•ì˜ ë„“ì´: %lf, ë‘˜ë ˆ:%lf\n", w, h, area, perimeter);
 
     area = area_and_p(w, h, &perimeter);
-    printf("%lf * %lf Á÷»ç°¢ÇüÀÇ ³ĞÀÌ: %lf, µÑ·¹:%lf\n", w, h, area, perimeter);
+    printf("%lf * %lf ì§ì‚¬ê°í˜•ì˜ ë„“ì´: %lf, ë‘˜ë ˆ:%lf\n", w, h, area, perimeter);
 
     perimeter = perimeter_and_a(w, h, &area);
-    printf("%lf * %lf Á÷»ç°¢ÇüÀÇ ³ĞÀÌ: %lf, µÑ·¹:%lf\n", w, h, area, perimeter);
+    printf("%lf * %lf ì§ì‚¬ê°í˜•ì˜ ë„“ì´: %lf, ë‘˜ë ˆ:%lf\n", w, h, area, perimeter);
 
     return 0;
 }
